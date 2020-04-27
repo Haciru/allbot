@@ -804,7 +804,7 @@ from telebot import types
 
 img = open('сервицисныйцент1.png', 'rb')
 img1 = open('сервицисныйцент2.png', 'rb')
-bot = telebot.TeleBot('1149028449:AAGdZczZKD4DPB-Y8Isq5KLMYaSm0ab45As')
+bot = telebot.TeleBot('BOT_TOKEN')
 
 @bot.message_handler(commands=['start'])
 def start_message(message=True):
